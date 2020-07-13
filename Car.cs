@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-class Program
+public class Car
 {
-  static void Main()
-  {
-    
-  }
+  public string MakeModel;
+  public int Price;
+  public int Miles;
 }
