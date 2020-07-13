@@ -7,3 +7,11 @@ public class Car
   public int Price;
   public int Miles;
 }
+
+public class Program
+{
+  public static void Main()
+  {
+    
+  }
+}
