@@ -43,5 +43,9 @@ public class Program
     {
       Console.WriteLine(automobile.MakeModel);
     }
+
+    Console.WriteLine("Enter maximum price: ");
+    string stringMaxPrice = Console.ReadLine();
+    int maxPrice = int.Parse(stringMaxPrice);
   }
 }
