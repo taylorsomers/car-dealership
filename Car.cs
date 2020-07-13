@@ -45,7 +45,15 @@ public class Program
 
     List<Car> CarsMatchingSearch = new List<Car>(0);
 
-    foreach(Car automobile in Cars)
+    foreach (Car automobile in Cars)
+    {
+      if (automobile.WorthBuying(maxPrice))
+      {
+        CarsMatchingSearch.Add(automobile);
+      }
+    }
+
+    foreach(Car automobile in CarsMatchingSearch)
     {
       Console.WriteLine(automobile.MakeModel);
     }
